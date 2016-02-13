@@ -36,8 +36,16 @@
       height: 30px;
       background-color: #2e2e2e;
       color: #e53663;
+
+    &:last-child {
+      background: transparent;
     }
   }
+}
+
+.carousel-control {
+  position: relative;
+  background: transparent;
 }
 
 @media screen and (min-width: 768px) {

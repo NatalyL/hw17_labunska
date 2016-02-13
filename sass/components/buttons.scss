@@ -1,0 +1,37 @@
+.btn-main {
+  position: relative;
+  display: inline-block;
+  padding: 5px 15px;
+  background: #e53663;
+  border: 1px solid #e53663;
+  border-radius: 15px;
+
+  &:hover {
+    background: #ffffff;
+
+    transition: background 0.5s ease;
+    color: #e53663;
+  }
+}
+
+.btn-light-site {
+  display: inline-block;
+  padding: 5px 15px;
+  border: 1px solid $main-color;
+  border-radius: 15px;
+  color: $main-color;
+
+  &:hover {
+    transition: background 0.5s ease;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btn-main, .btn-light-site {
+    padding: 15px 45px;
+    border-radius: 35px;
+    font-size: 1.3em;
+  }
+}

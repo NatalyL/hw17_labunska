@@ -1,0 +1,23 @@
+.news {
+  padding: 50px 0 0 0;
+  text-align: center;
+
+  p {
+    margin: 25px 0 75px;
+  }
+
+  h3 {
+    margin: 25px 0;
+    color: $main-color;
+    font-weight: 700;
+    font-size: 1.3em;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .news {
+    padding: 185px 0 0 0;
+  }
+}
+

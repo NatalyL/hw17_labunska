@@ -1,0 +1,22 @@
+.ft-page {
+  padding: 50px 0;
+  text-align: center;
+
+  p {
+    margin: 25px 0 75px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ft-page {
+    padding: 185px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ft-page {
+    .btn-light-site {
+      margin: 0 0 20px 0;
+    }
+  }
+}

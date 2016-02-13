@@ -1,0 +1,23 @@
+.counter {
+  padding-top: 50px;
+  text-align: center;
+
+  p {
+    margin: 25px 0 40px;
+  }
+}
+
+.count li {
+  display: inline-block;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .counter {
+    padding-top: 200px;
+  }
+
+  .count li {
+    width: 33%;
+  }
+}

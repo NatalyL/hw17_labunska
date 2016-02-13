@@ -1,0 +1,50 @@
+ul, ol {
+  list-style-type: none;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3 {
+  margin: 0 0;
+}
+
+h2 {
+  color: $main-color;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+blockquote {
+  border-left: none;
+}
+
+body {
+  font-family: $font-base;
+  font-size: 14px;
+  color: #ffffff;
+  background: #000 url("../images/bg.png") center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 1.7em;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+}

@@ -1,0 +1,299 @@
+@charset "UTF-8";
+.btn-main {
+  position: relative;
+  display: inline-block;
+  padding: 5px 15px;
+  background: #e53663;
+  border: 1px solid #e53663;
+  border-radius: 15px; }
+  .btn-main:hover {
+    background: #ffffff;
+    transition: background 0.5s ease;
+    color: #e53663; }
+
+.btn-light-site {
+  display: inline-block;
+  padding: 5px 15px;
+  border: 1px solid #05e7e6;
+  border-radius: 15px;
+  color: #05e7e6; }
+  .btn-light-site:hover {
+    transition: background 0.5s ease;
+    border: 1px solid #ffffff;
+    color: #ffffff; }
+
+@media screen and (min-width: 768px) {
+  .btn-main, .btn-light-site {
+    padding: 15px 45px;
+    border-radius: 35px;
+    font-size: 1.3em; } }
+
+.carousel-inner ul {
+  text-align: left; }
+  .carousel-inner ul li {
+    float: left;
+    width: 50%;
+    padding: 0 5px; }
+    .carousel-inner ul li:hover h3 {
+      color: #e53663; }
+    .carousel-inner ul li p {
+      font-size: 1.2em; }
+
+.carousel-indicators-numbers li {
+  text-indent: 0;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000000;
+  border-radius: 0;
+  line-height: 30px;
+  color: #fff;
+  background-color: #2e2e2e;
+  transition: all 0.25s ease; }
+  .carousel-indicators-numbers li.active, .carousel-indicators-numbers li:hover {
+    width: 30px;
+    height: 30px;
+    background-color: #2e2e2e;
+    color: #e53663; }
+
+@media screen and (min-width: 768px) {
+  .carousel-inner ul li {
+    float: left;
+    width: 25%;
+    padding: 0 15px; } }
+
+ul, ol {
+  list-style-type: none;
+  margin: 0 0;
+  padding: 0 0; }
+
+a {
+  text-decoration: none;
+  color: #ffffff; }
+  a:hover {
+    text-decoration: none; }
+
+img {
+  max-width: 100%; }
+
+h1, h2, h3 {
+  margin: 0 0; }
+
+h2 {
+  color: #05e7e6;
+  font-weight: 700;
+  font-size: 1.3em; }
+
+blockquote {
+  border-left: none; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  background: #000 url("../images/bg.png") center;
+  background-size: cover; }
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 1.7em; }
+  p {
+    font-size: 1.3em; } }
+
+.h-page {
+  padding: 50px 0; }
+
+.nav-btn {
+  margin: 10px;
+  display: block;
+  height: 40px;
+  width: 40px;
+  border-bottom: 4px solid #05e7e6;
+  border-top: 4px solid #05e7e6;
+  position: relative;
+  float: right; }
+
+.nav-btn::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #05e7e6;
+  position: absolute;
+  top: 50%;
+  margin-top: -2px; }
+
+.main-nav {
+  border: 1px solid #000000;
+  position: relative; }
+
+.main-nav ul a {
+  display: block;
+  white-space: nowrap;
+  padding: 10px 15px; }
+
+.main-nav > ul > li {
+  position: relative;
+  border-bottom: 1px solid #000000;
+  background: #05e7e6; }
+
+#menu {
+  display: none; }
+
+#menu.mobile-down {
+  display: block; }
+
+@media screen and (min-width: 768px) {
+  .main-nav > ul > li {
+    font-size: 1.5em; } }
+
+.ft-page {
+  padding: 50px 0;
+  text-align: center; }
+  .ft-page p {
+    margin: 25px 0 75px; }
+
+@media screen and (min-width: 768px) {
+  .ft-page {
+    padding: 185px 0; } }
+
+@media screen and (max-width: 768px) {
+  .ft-page .btn-light-site {
+    margin: 0 0 20px 0; } }
+
+.home {
+  padding-bottom: 75px;
+  text-align: center;
+  color: #05e7e6;
+  font-size: 1.7em; }
+  .home h1 {
+    margin: 60px; }
+  .home p {
+    padding-bottom: 100px; }
+
+.additional-info {
+  padding: 40px;
+  background: #e53663;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700; }
+
+.about-us {
+  padding-top: 65px; }
+
+.about-us-inner {
+  border: 5px solid #05e7e6;
+  border-radius: 5px;
+  text-align: center; }
+  .about-us-inner h2 {
+    position: absolute;
+    width: 80%;
+    padding: 30px;
+    top: -45px;
+    left: 50%;
+    -moz-transform: translate(-50%, 0);
+    /* Для Firefox */
+    -ms-transform: translate(-50%, 0);
+    /* Для IE */
+    -webkit-transform: translate(-50%, 0);
+    /* Для Safari, Chrome, iOS */
+    -o-transform: translate(-50%, 0);
+    /* Для Opera */
+    transform: translate(-50%, 0);
+    background: #000000; }
+  .about-us-inner p {
+    margin: 30px 10px 50px; }
+
+.btn-on-border {
+  position: absolute;
+  width: 80%;
+  padding: 30px;
+  bottom: -50px;
+  left: 50%;
+  -moz-transform: translate(-50%, 0);
+  /* Для Firefox */
+  -ms-transform: translate(-50%, 0);
+  /* Для IE */
+  -webkit-transform: translate(-50%, 0);
+  /* Для Safari, Chrome, iOS */
+  -o-transform: translate(-50%, 0);
+  /* Для Opera */
+  transform: translate(-50%, 0);
+  background: #000000; }
+
+@media screen and (min-width: 768px) {
+  .about-us {
+    padding-top: 260px; }
+  .about-us-inner h2 {
+    top: -65px; }
+  .about-us-inner p {
+    padding: 30px 60px 100px; }
+  .btn-on-border {
+    width: 50%;
+    bottom: -65px; } }
+
+.news {
+  padding: 50px 0 0 0;
+  text-align: center; }
+  .news p {
+    margin: 25px 0 75px; }
+  .news h3 {
+    margin: 25px 0;
+    color: #05e7e6;
+    font-weight: 700;
+    font-size: 1.3em;
+    text-transform: uppercase; }
+
+@media screen and (min-width: 768px) {
+  .news {
+    padding: 185px 0 0 0; } }
+
+.counter {
+  padding-top: 50px;
+  text-align: center; }
+  .counter p {
+    margin: 25px 0 40px; }
+
+.count li {
+  display: inline-block;
+  padding: 15px; }
+
+@media screen and (min-width: 768px) {
+  .counter {
+    padding-top: 200px; }
+  .count li {
+    width: 33%; } }
+
+.opinions {
+  padding-top: 35px;
+  text-align: center; }
+  .opinions p {
+    margin: 25px 0 40px; }
+
+.quotes {
+  text-align: left; }
+
+.quotes li {
+  padding: 30px 0; }
+  .quotes li img {
+    float: left;
+    padding: 0 10px 0 0; }
+  .quotes li blockquote {
+    font-style: italic; }
+  .quotes li em {
+    text-transform: uppercase;
+    font-style: normal; }
+    .quotes li em span {
+      font-weight: 700;
+      color: #05e7e6; }
+
+@media screen and (min-width: 768px) {
+  .opinions {
+    padding-top: 135px; }
+  .quotes li {
+    float: left;
+    width: 50%; }
+    .quotes li img {
+      padding: 0 20px 0 0; }
+    .quotes li blockquote {
+      font-size: 1.3em; } }

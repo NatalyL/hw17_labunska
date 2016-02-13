@@ -54,6 +54,11 @@
                         <li data-target="#carousel-example-generic" data-slide-to="2">3</li>
                         <li data-target="#carousel-example-generic" data-slide-to="3">4</li>
                         <li data-target="#carousel-example-generic" data-slide-to="4">5</li>
+                         <li> <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <img src="images/arrow-right.png" alt="" class="arrow-right">
+                                <span class="sr-only">Next</span>
+                            </a></li>
+
                     </ol>
 
                     <!-- Wrapper for slides -->
@@ -71,16 +76,7 @@
                                 <?php endforeach; ?>
                             </ul>
                         </div>
-
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                        <img src="images/arrow-right.png" alt="">
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
+                  </div>
 
             </div>
         </div>

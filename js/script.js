@@ -8,7 +8,7 @@ $(function () {
 
     $('.nav-btn').on('click', (function(e) {
         e.preventDefault();
-        $('#menu').slideToggle('fast', function() {
+        $('#menu').slideToggle('slow', function() {
             $('#menu').toggleClass('mobile-down').css('display', '');
         });
     }));
